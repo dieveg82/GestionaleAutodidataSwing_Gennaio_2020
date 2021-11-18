@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.0.final utlizzo versione della libreria JasperReports6.12.1-ac0eebdb29e4c0985457bab279a6db744d661530  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="17ebb3fd-e290-49d2-b5da-5db49bd8f344">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Nuovo Data Adapter (3)"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM fattura]]>
+	</queryString>
+	<field name="NumeroFattura" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="NumeroFattura"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="DataFattura" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="DataFattura"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Cognome" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Cognome"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Nome" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nome"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="CodiceFiscale" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="CodiceFiscale"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Via" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Via"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="NumeroCivico" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="NumeroCivico"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="CodicePostale" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="CodicePostale"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Citta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Citta"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Capoluogo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Capoluogo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Empap" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Empap"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Bollo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Bollo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="TotaleFattura" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="TotaleFattura"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="MetodoPagamento" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="MetodoPagamento"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="fattura"/>
+	</field>
+	<field name="Imponibile" class="java.lang.String"/>
+	<group name="NumeroFattura">
+		<groupExpression><![CDATA[$F{NumeroFattura}]]></groupExpression>
+	</group>
+	<group name="DataFattura">
+		<groupExpression><![CDATA[$F{DataFattura}]]></groupExpression>
+	</group>
+	<group name="Cognome">
+		<groupExpression><![CDATA[$F{Cognome}]]></groupExpression>
+	</group>
+	<group name="Nome">
+		<groupExpression><![CDATA[$F{Nome}]]></groupExpression>
+	</group>
+	<group name="CodiceFiscale">
+		<groupExpression><![CDATA[$F{CodiceFiscale}]]></groupExpression>
+	</group>
+	<group name="Via">
+		<groupExpression><![CDATA[$F{Via}]]></groupExpression>
+	</group>
+	<group name="NumeroCivico">
+		<groupExpression><![CDATA[$F{NumeroCivico}]]></groupExpression>
+	</group>
+	<group name="CodicePostale">
+		<groupExpression><![CDATA[$F{CodicePostale}]]></groupExpression>
+	</group>
+	<group name="Citta">
+		<groupExpression><![CDATA[$F{Citta}]]></groupExpression>
+	</group>
+	<group name="Capoluogo">
+		<groupExpression><![CDATA[$F{Capoluogo}]]></groupExpression>
+	</group>
+	<group name="Empap">
+		<groupExpression><![CDATA[$F{Empap}]]></groupExpression>
+	</group>
+	<group name="Bollo">
+		<groupExpression><![CDATA[$F{Bollo}]]></groupExpression>
+	</group>
+	<group name="TotaleFattura">
+		<groupExpression><![CDATA[$F{TotaleFattura}]]></groupExpression>
+	</group>
+	<group name="MetodoPagamento">
+		<groupExpression><![CDATA[$F{MetodoPagamento}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="220" y="20" width="361" height="41" uuid="e70e38aa-80a4-4ade-ab04-f9de763938d9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="15" isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[REPORT FATTURA DOTT-SSA ESTER DEPLANO]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="66" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="30" width="60" height="29" uuid="df5723df-7edf-4eec-a4d9-cfb4c068ec19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nr Fattura]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="30" width="80" height="29" uuid="170e223a-4da5-4df5-93d5-d1698f1bb0ab"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data Fattura]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="30" width="100" height="29" uuid="e480b07b-3edd-4f48-a44d-d363664264d4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cognome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="30" width="80" height="29" uuid="6d87f985-4abc-44c9-a725-cafb5c17d700"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="30" width="125" height="29" uuid="ee02fe0a-8865-4efe-903a-6bd36b87636e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Codice Fiscale]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="517" y="30" width="49" height="29" uuid="a7c98326-64af-4250-96a5-59e1dae8db5f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Empap]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="566" y="30" width="44" height="29" uuid="ff89ca36-fb25-48bc-9a82-e7b28dea2d7b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bollo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="610" y="30" width="70" height="29" uuid="db6a529e-868b-4c0d-a47c-ae0514664dc0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tot Fattura]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="680" y="30" width="120" height="29" uuid="6f55890f-8547-417f-95ad-826bbe900740"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Metodo Pagamento]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="445" y="30" width="72" height="29" uuid="9157000c-f035-474a-9c8b-6d98dba5bf7c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Imponibile]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<textField>
+				<reportElement x="1" y="0" width="59" height="18" uuid="f97b3995-8621-4b42-a00a-4440a4568d4a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NumeroFattura}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="0" width="80" height="18" uuid="267c48fd-623e-43fe-a898-c94861275cd6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{DataFattura}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="0" width="100" height="18" uuid="7a974709-3d85-420a-b0ad-210a1744d7af"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{Cognome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="80" height="18" uuid="87413cf9-b4b0-4588-8955-eac136b79400"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{Nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="0" width="130" height="18" uuid="626411f8-c47c-458d-99f0-8cfd201d815a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{CodiceFiscale}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="517" y="0" width="49" height="18" uuid="dc3954c5-af36-423f-8c2e-bd8ff04f443e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{Empap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="566" y="0" width="44" height="18" uuid="b3776eee-851b-4615-83ba-9ba7bd2c5cc0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{Bollo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="610" y="0" width="70" height="18" uuid="24f147bb-ec79-4a3c-8f4b-7757c3692f28"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{TotaleFattura}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="680" y="0" width="120" height="18" uuid="a1eaaf55-5598-47be-bb7c-f7db14720ae0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{MetodoPagamento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="0" width="66" height="18" uuid="8bfa35ab-99ed-438c-a6ca-7fcd3088e7ee">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5dbf5c21-2018-4970-bc8e-b44272f459b2"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{Imponibile}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
